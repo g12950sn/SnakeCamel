@@ -39,7 +39,7 @@ public class SnakeCamelUtil {
 
 	static String uncapitalize(String s) {
 		char first = s.charAt(0);
-		char lowerFirst = Character.toLowerCase(first);//toUpperCase‚Í•¶š—ñ‚ÉŠÜ‚Ü‚ê‚é‚·‚×‚Ä‚Ì•¶š‚ğ¬•¶š‚É•ÏŠ·‚·‚éB
+		char lowerFirst = Character.toLowerCase(first);//toLowerCase‚Í•¶š—ñ‚ÉŠÜ‚Ü‚ê‚é‚·‚×‚Ä‚Ì•¶š‚ğ¬•¶š‚É•ÏŠ·‚·‚éB
 		String rest = s.substring(1);
 		return lowerFirst + rest;
 	}
